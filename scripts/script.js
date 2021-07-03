@@ -80,10 +80,3 @@ document.querySelector("form")
     console.log("formulário enviado")
     event.preventDefault()
 })
-
-function Send () {
-  const error = verifyErrors()
-  if(!error) {
-    window.alert('Formulário Enviado');
-  } 
-}

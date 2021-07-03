@@ -1,6 +1,11 @@
 body {
   background: #25ced1;
 }
+
+strong {
+  color: red;
+}
+
 section {
   max-width: 450px;
   margin: 100px auto;
@@ -37,7 +42,9 @@ form {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
-
+.error {
+  color: red;
+}
 label,
 input,
 textarea,
